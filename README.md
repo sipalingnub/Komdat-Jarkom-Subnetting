@@ -44,7 +44,7 @@ Kita bikin dua lokasi:
 * **Link WAN**: Nyambungin kedua router  
 * **Switch & PC**: Tiap jaringan ada switch dan PC contoh  
 
-![Topologi Jaringan](link-screenshot-kalian-disini)
+![Topologi Jaringan](https://github.com/sipalingnub/Komdat-Jarkom-Subnetting/blob/1e6b9c1a3093c1ff2d1bc6d5ed473b89acba0c93/upload/Screenshot%202025-11-12%20004407.png)
 
 **Cara Setting IP:**  
 Semua device (PC dan Router) kita set manual **sesuai tabel VLSM** di atas.  
@@ -117,3 +117,8 @@ Dari tabel di atas, semua jaringan bisa digabung jadi satu Supernet: **`10.132.0
 Jadi di `Router_Cabang` cuma perlu **satu perintah** doang:  
 ```bash
 ip route 10.132.0.0 255.255.252.0 10.132.3.233
+```
+
+### Dokumentasi Sukses PING!
+
+![Bukti Ping](https://github.com/sipalingnub/Komdat-Jarkom-Subnetting/blob/1e6b9c1a3093c1ff2d1bc6d5ed473b89acba0c93/upload/Screenshot%202025-11-12%20004208.png)
